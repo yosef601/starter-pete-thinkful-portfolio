@@ -21,6 +21,40 @@ header {
   text-align: center;
 }
 
+.title {
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  justify-content: space-around;
+ }
+  
+ .about-item {
+  display: flex;
+  }
+
+ .about-content {
+  display: flex;
+  flex-direction: column;  
+  text-align: left; /* h1 text-align: center; higher in the file so it apply with higher order */
+ }
+
+ .items {
+    display: flex; 
+    flex-direction: row;  
+    align-items:first baseline;
+    justify-content: space-around;
+  }
+
+  .item {
+    flex: 1;
+    margin: 2%;
+    flex-direction: column;  
+  }
+
+  .item p {
+    font-size: 14px;
+    text-align: center; 
+  }
 /* Containers */
 div {
   background-color: #eae2b7;
